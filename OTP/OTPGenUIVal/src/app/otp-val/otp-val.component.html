@@ -1,0 +1,8 @@
+<div class="container">
+    <form [formGroup]="otpValidateRef" (ngSubmit)="otpValidate()">
+        <label> OTP </label> <br>
+        <input type="text" formControlName="otp">
+        <br>
+        <input type="submit" value="validate OTP">
+    </form>
+</div>

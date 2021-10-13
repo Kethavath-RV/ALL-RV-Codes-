@@ -1,0 +1,7 @@
+hi {{username}} your otp is {{otp}} expires in  {{timeValidityInMinutes}} minutes                                   and your credit limit is {{creditLimit}}
+Regards,                                                                                                   
+{{sender.name}},                                                                                               
+{{sender.mobileNumber}}
+
+
+

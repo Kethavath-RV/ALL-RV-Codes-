@@ -1,0 +1,10 @@
+
+<div class="container">
+    <form [formGroup]="otpGenerateRef" (ngSubmit)="sendMessg()">
+        <label> EMailId</label> <br>
+        <input type="text" formControlName="emailId">
+        <br>
+        <input type="submit" value="Generate OTP">
+
+    </form>
+</div>
